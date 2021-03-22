@@ -6,5 +6,5 @@ then
         exit
 fi
 touch .lock
-grunt cron
+"`npm bin`/grunt" cron
 rm .lock
